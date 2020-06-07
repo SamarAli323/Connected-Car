@@ -8,10 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Connected Car App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      //call home page (connected car page)
       home: HomePage(),
     );
   }

@@ -1,4 +1,4 @@
-name: hello_world
+name: connected_car
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -44,6 +44,13 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  fonts:
+     - family: digital-7
+       fonts:
+         - asset: assets/digital-7.ttf
+     - family: RobotoMono-Regular
+       fonts:
+         - asset: assets/RobotoMono-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
